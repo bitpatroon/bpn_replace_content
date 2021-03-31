@@ -1,7 +1,7 @@
 {
   "name": "bitpatroon/bpn_replace_content",
   "type": "typo3-cms-extension",
-  "description": "Replaces content'",
+  "description": "Replaces content",
   "keywords": [
     "typo3",
     "fe",
