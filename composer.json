@@ -1,0 +1,36 @@
+{
+  "name": "bitpatroon/bpn_replace_content",
+  "type": "typo3-cms-extension",
+  "description": "Replaces content'",
+  "keywords": [
+    "typo3",
+    "fe",
+    "content"
+  ],
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Sjoerd Zonneveld",
+      "homepage": "https://www.bitpatroon.nl",
+      "role": "Developer",
+      "email": "code@bitpatroon.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "typo3/cms-core": ">=7.6.0 < 10.9.99"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "BPN\\BpnReplaceContent\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "bpn_replace_content"
+    }
+  }
+}
