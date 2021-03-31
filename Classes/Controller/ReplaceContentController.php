@@ -99,7 +99,7 @@ class ReplaceContentController
         $pageRenderer->addJsInlineCode(1587413046568, $content);
 
         $pageRenderer->loadRequireJs();
-        $pageRenderer->addJsFile(
+        $pageRenderer->addJsFooterFile(
             '/typo3conf/ext/bpn_replace_content/Resources/Public/JavaScript/BpnReplaceContent.js'
         );
     }
@@ -225,7 +225,7 @@ class ReplaceContentController
         $username = $GLOBALS['TSFE']->fe_user->user['username'];
         $anyName = $name ?: $email ?: $username ?: '-';
         $result = $this->replaceTag($result, self::FIELD_ANY, $anyName, $email);
-        
+
         return $result;
     }
 

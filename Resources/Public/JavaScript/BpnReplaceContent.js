@@ -102,7 +102,7 @@
     };
 
     self.prepare = function () {
-        $('footer,header,section').find(
+        $('footer,header,section,main').find(
             'p:contains("___"),' +
             'li:contains("___")'
         ).each(function () {
